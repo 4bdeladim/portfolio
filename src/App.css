@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'neue-haas-grotesk-display';
+  src: url(./Components/Fonts/NHaasGroteskTXPro-55Rg.ttf);
+  
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+}
+
+.app-container {
+  background: #0d0d0d;
+  background: radial-gradient(circle, rgba(14, 14, 14, 1) 0%, rgba(13, 13, 13, 1) 100%);
+  overflow: hidden;
+}

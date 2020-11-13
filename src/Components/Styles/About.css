@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url(../Fonts/NHaasGroteskTXPro-55Rg.ttf);
+}
+
+.container {
+    display: flex;
+    flex-direction: row ;
+    align-items: center ;
+    height: 100vh ;
+}
+
+.about-container {
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 55vw ;
+    margin: 0 auto ;
+    color: #e5e5e5 ;
+}
+
+.title {
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    margin-bottom: 1rem ;
+    font-size: 2rem ;
+}
+
+.about-me {
+    width: 50% ;
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    font-size: 1rem ;
+    margin-bottom: 1rem ;
+    padding-bottom: .5rem ;
+    border-bottom: 2px solid #2727aa ;
+}
+
+.intrest {
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    margin-bottom: 1rem ;
+    font-size: 2rem ;
+}
+
+.my-intrest {
+    width: 50% ;
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    font-size: 1rem ;
+    margin-bottom: 1rem ;
+    padding-bottom: .5rem ;
+    
+}
+
+.btn-skills {
+    background: #2727aa ;
+    width: 8rem ;
+    height: 3rem ;
+    outline: none;
+    border: none;
+    border-radius: 10px ;
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s all ease-in;
+    color: #e5e5e5;
+    font-weight: 800;
+}
+
+.btn-skills:hover {
+    background-color: #e5e5e5;
+    color: #2727aa ;
+
+    border: 1px solid #2727aa;
+}
+
+.img-container {
+    width: 30vw ;
+    height: 381px ;
+    margin-bottom: 8rem ;
+    display: flex ;
+    justify-content: center ;
+    align-items: flex-start ;
+    margin-right: 4rem ;
+}
+
+.img {
+    width: 350px ;
+    height: 500px ;
+    border-radius: 5px ;
+}
+
+
+@media screen and (max-width: 800px ) {
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100vh ;
+        margin-top: 20rem ;
+        margin-bottom: 2rem ;
+    }
+
+    .img-container {
+        width: 90vw ;
+        margin: 0 auto ;
+        text-align: center ;
+        margin-bottom: 10rem ;
+    }
+
+    .about-container {
+        width: 100vw ;
+        margin: 0 auto ;
+        justify-self: center ;
+        align-items: center;
+        padding-bottom: 20rem ;
+    }
+
+}

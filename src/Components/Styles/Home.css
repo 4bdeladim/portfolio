@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url(../Fonts/NHaasGroteskTXPro-55Rg.ttf);
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row ;
+    align-items: center ;
+    height: 90vh ;
+    z-index: 1 ;
+}
+
+.home__name {
+    color: #e5e5e5;
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    font-size: 4.8vw ;
+    font-weight: 400;
+    padding-right: 1rem ;
+    border-right: 5px solid #2727aa ;
+    border-bottom: 5px solid #2727aa ;
+    border-bottom-right-radius: 2px  ;
+}
+
+.home__about {
+    width: 40vw ;
+    justify-self: flex-start;
+    margin: 0 auto ;
+    
+}
+.home__special {
+    color: #e5e5e5;
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    font-size: 4.8vw ;
+    font-weight: 400;
+}
+
+.home__special::first-letter {
+    color: #2727aa;
+}
+
+.home__btn-container {
+    width: 30vw ;
+    margin: 0 auto ;
+    text-align: center;
+    align-self: center;
+    height: 381px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home__btn {
+    position: relative;
+    background: #2727aa ;
+    width: 10rem ;
+    height: 4rem ;
+    outline: none;
+    border: none;
+    border-radius: 10px ;
+    font-family: 'neue-haas-grotesk-display',Helvetica,Arial,sans-serif ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    font-weight: 800;
+}
+
+.home__btn:hover {
+    background: unset;
+    border: 1px solid #2727aa;
+    padding: 5px ;
+    
+}
+
+.home__text {
+    position: absolute;
+    top: 1.45rem ;
+    right: 3.5rem ;
+    border: none;
+    text-decoration: none;
+    font-size: 14px ;
+    color: #e5e5e5;
+
+}
+
+
+
+.home__arrow {
+    position: absolute;
+    top: 1.6rem ;
+    right: 2rem ;
+    color: #e5e5e5;
+}
+
+
+@media screen and (max-width: 800px ) {
+    .home-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -4rem ;
+        height: 98.4vh ;
+    }
+
+    .home__about {
+        width: 80vw ;
+        margin: 0 auto ;
+        height: 50vh ;
+        height: 200px ;
+        text-align: center;
+        margin-bottom: 3rem ;
+    }
+
+    .home__name {
+        width: 250px ;
+        margin: 3rem  auto ;
+        border: none ;
+        padding-bottom: .5rem ;
+        border-bottom: 1px solid #2727aa;
+
+    }
+
+    .home__btn-container {
+        width: 50vw ;
+        height: 100px ;
+        margin-top: 2rem ;
+    }
+}
+

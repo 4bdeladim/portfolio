@@ -1,0 +1,73 @@
+.skills__container {
+    display: flex;
+    height: 89.6vh ;
+    flex-direction: row-reverse ;
+    align-items: center;
+    margin: 0 auto ;
+}
+
+.icons {
+    justify-self: end;
+    align-self: center ;
+    width: 42vw ;
+    margin-top: -1rem ;
+}
+.ic__on {
+    font-size: 2rem ;
+    color: #e5e5e5;
+    margin: 1rem ;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.ic__on:hover {
+    font-size: 3rem ;
+}
+
+.section__container {
+    width: 50vw ;
+    justify-self: flex-start;
+    margin-top: -2rem ;
+}
+
+.skills__btn {
+    position: relative;
+    padding: .7rem 2rem  ;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px ;
+    background: #2727aa ;
+    color: #e5e5e5;
+    font-weight: 800;
+     ;
+}
+
+.arrow__skills {
+    color: #e5e5e5;
+    margin-left: 1rem;
+    margin-top: .4rem ;
+    transition: all 0.3s ease-out;
+}
+
+
+
+.arrow__skills:hover {
+    font-size: 2.5rem ;
+}
+
+.btns__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.skills_section {
+    width: 50% ;
+    margin: 2rem 0;
+    color: #e5e5e5;
+}
+
+.skills__title {
+    color: #e5e5e5;
+}
