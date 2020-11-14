@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.044e4056.chunk.css",
-    "main.js": "/portfolio/static/js/main.62e8e9da.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.62e8e9da.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a83a46cc.chunk.css",
+    "main.js": "/portfolio/static/js/main.169d33be.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.169d33be.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.87c7729b.chunk.js": "/portfolio/static/js/2.87c7729b.chunk.js",
     "static/js/2.87c7729b.chunk.js.map": "/portfolio/static/js/2.87c7729b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.044e4056.chunk.css.map": "/portfolio/static/css/main.044e4056.chunk.css.map",
+    "static/css/main.a83a46cc.chunk.css.map": "/portfolio/static/css/main.a83a46cc.chunk.css.map",
     "static/js/2.87c7729b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.87c7729b.chunk.js.LICENSE.txt",
     "static/media/About.css": "/portfolio/static/media/NHaasGroteskTXPro-55Rg.69ec3dbc.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.87c7729b.chunk.js",
-    "static/css/main.044e4056.chunk.css",
-    "static/js/main.62e8e9da.chunk.js"
+    "static/css/main.a83a46cc.chunk.css",
+    "static/js/main.169d33be.chunk.js"
   ]
 }
