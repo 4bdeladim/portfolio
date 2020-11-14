@@ -98,7 +98,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                My Skills
+                My Tools
               </Link>
             </li>
             <li  

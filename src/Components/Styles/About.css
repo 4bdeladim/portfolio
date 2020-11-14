@@ -89,29 +89,65 @@
 }
 
 
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 795px ) {
+    
     .container {
         flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        height: 100vh ;
-        margin-top: 20rem ;
-        margin-bottom: 2rem ;
+        height: unset ;
+        padding-bottom: 2rem ;
+        padding-top: 5rem ;
     }
 
     .img-container {
-        width: 90vw ;
+        margin: 0;
+        padding: 0;
+        height: 60vh ;
+        width: 100vw ;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem ;
+    }
+
+    .img {
+        margin: 0;
+        padding: 0;
+        width: 80% ;
+        height: 100%  ;
         margin: 0 auto ;
-        text-align: center ;
-        margin-bottom: 10rem ;
+        text-align: center;
     }
 
     .about-container {
-        width: 100vw ;
-        margin: 0 auto ;
-        justify-self: center ;
+        margin: 0;
+        padding: 0 ;
+        justify-content: center;
         align-items: center;
-        padding-bottom: 20rem ;
+        width: 100vw ;
     }
 
+    .my-intrest {
+        margin: 0;
+        padding: 0 0 1rem 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80vw ;
+    }
+
+    .intrest {
+        margin: 0 0 0 10px ;
+        padding: 1rem ;
+        
+    }
+
+    .title {
+        width: 100vw ;
+        text-align: center ;
+    }
+
+    .about-me {
+        width: 80vw ;
+    }
+
+    
 }

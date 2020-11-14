@@ -10,7 +10,7 @@
     justify-self: end;
     align-self: center ;
     width: 42vw ;
-    margin-top: -1rem ;
+    margin-top: -2rem ;
 }
 .ic__on {
     font-size: 2rem ;
@@ -70,4 +70,63 @@
 
 .skills__title {
     color: #e5e5e5;
+}
+
+
+@media screen and (max-width: 540px ) {
+    .skills__container {
+        margin: 0;
+        padding: 2rem  0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: unset ;
+    }
+
+    .icons {
+        width: 100vw ;
+        height: 50vh ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto ;
+        
+    }
+
+    .section__container {
+        width: 100vw ;
+        height: unset ;
+        margin: 0 auto ;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skills__title {
+        width: 90% ;
+        margin: 0 auto ;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        padding: 1rem 0 ;
+    }
+
+    .skills_section {
+        width: 90% ;
+        margin: 0 auto ;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        padding-bottom: 1rem ;
+    }
+
+    .btns__container {
+        width: 100vw ;
+        margin: 0 auto ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
 }

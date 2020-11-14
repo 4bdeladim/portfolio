@@ -127,14 +127,14 @@ const Home = () => {
                 animate="visible"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-              className='btn-skills'>My Skills </motion.button>
+              className='btn-skills'>My Tools </motion.button>
               </Link>
               
             </motion.div>
             <motion.div 
             className='img-container'>
               <motion.img 
-                variants={Intrest}
+                variants={MyImg}
                 initial="hidden"
                 animate="visible"
                 whileHover={{ scale: 1.1 }}
