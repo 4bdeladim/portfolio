@@ -1,0 +1,58 @@
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.components__container {
+    height: unset  ;
+    display: flex ;
+    flex-direction: row ;
+    width: 90vw  ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    align-self: center ;
+}
+.projects__container {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem ;
+}
+
+.project__name {
+    color: #e5e5e5 ;
+}
+
+.sourcecode__btn {
+    background: #2727aa ;
+    color: #e5e5e5;
+    text-decoration: none ;
+    padding: .5rem 2rem ;
+    margin: 1rem 0;
+    border-radius: 5px ;
+}
+
+.demo__btn {
+    background: #e5e5e5  ;
+    color: #2727aa;
+    text-decoration: none ;
+    padding: .5rem 2rem ;
+    margin: .5rem 0;
+    border-radius: 5px ;
+}
+
+.project__img {
+    width: 270px ;
+    height: 150px ;
+    margin-bottom: 1rem ;
+}
+
+@media screen and (max-width: 395px ) {
+    .project__name {
+        color: #e5e5e5 ;
+        font-size: 1.5em ;
+    }
+}

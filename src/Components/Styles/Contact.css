@@ -1,0 +1,51 @@
+.contact__container {
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 89.6vh ;
+    align-items: center;
+    width: 90vw ;
+    margin: 0 auto ;
+}
+
+.left__container {
+    width: 50% ;
+    margin-top: -1rem ;
+}
+
+.contact__paragraphe {
+    margin: 1rem 0 ;
+    width: 70% ;
+    color: #e5e5e5 ;
+    font-size: 1.5rem ;
+}
+
+.contact__title {
+    color: #e5e5e5 ;
+    font-size: 4rem ;
+}
+
+.contact__icon {
+    font-size: 2rem ;
+    margin: 1rem ;
+    color: #e5e5e5;
+}
+
+.btn__contact {
+    width: 40% ;
+    display: flex ;
+    justify-content: flex-end;
+    outline: none ;
+    text-decoration: none;
+    
+}
+.gohome__btn {
+    padding: 1rem 3rem ;
+    margin-bottom: 1rem ;
+    background:  #2727aa ;
+    outline: none;
+    border: none ;
+    border-radius: 5px ;
+    color: #e5e5e5 ;
+    cursor: pointer ;
+}

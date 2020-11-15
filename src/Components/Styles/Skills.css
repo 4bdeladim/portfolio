@@ -80,12 +80,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: unset ;
+        height: 90vh  ;
     }
 
     .icons {
         width: 100vw ;
-        height: 50vh ;
+        height: 30vh ;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -95,7 +95,7 @@
 
     .section__container {
         width: 100vw ;
-        height: unset ;
+        height: unset   ;
         margin: 0 auto ;
         padding: 0;
         justify-content: center;
