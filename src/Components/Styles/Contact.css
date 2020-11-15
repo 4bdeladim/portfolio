@@ -49,3 +49,30 @@
     color: #e5e5e5 ;
     cursor: pointer ;
 }
+
+@media screen and (max-width: 680px ) {
+    .contact__container {
+        flex-direction: column;
+        height: 89.6vh ;
+    }
+    .left__container {
+        width: 90vw  ;
+        align-self: center;
+        justify-self: center;
+        margin: 2rem auto ;
+        text-align: center ;
+    }
+    .contact__paragraphe {
+        
+        width: 90% ;
+        margin: 0 auto ;
+        color: #e5e5e5 ;
+        font-size: 1.5rem ;
+    }
+}
+
+@media screen and (max-width: 451px ) {
+    .contact__container {
+        height: unset ;
+    } 
+}
